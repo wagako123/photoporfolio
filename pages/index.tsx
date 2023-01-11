@@ -3,6 +3,9 @@ import Image from 'next/image';
 import Hero from '../components/Hero';
 import { SliderData} from '../components/SliderData';
 import Slider from '../components/Slider';
+import Instagram from '../components/instagram';
+import {InstagramData} from '../components/instragramData'
+
 
 export default function Home() {
   return (
@@ -18,6 +21,8 @@ export default function Home() {
       <Hero heading='CG Photography' message='I make pictures of cars come alive'/>
 
       <Slider slides = {SliderData} />
+
+      <Instagram />
 
       
     </div>
