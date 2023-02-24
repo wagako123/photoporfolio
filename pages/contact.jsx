@@ -1,11 +1,13 @@
 import React from 'react'
 import Contact from '../components/Contact'
 import Hero from '../components/Hero'
+import Navbar from '../components/Navbar'
+
 
 const contact = () => {
   return (
     <div>
-        <Hero heading="Let's work together" message='Kindly fill the form for quotes and booking' />
+      <Navbar/>
         <Contact />
     </div>
   )

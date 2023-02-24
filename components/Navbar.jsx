@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React,{useEffect, useState} from 'react'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
-const NavBar = () => {
+const Navbar = () => {
     const [nav, setNav]= useState(false);
     const [colour, setColour]=useState('transparent')
     const [textColour, setTextColour]=useState('white')
@@ -76,4 +76,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default Navbar
