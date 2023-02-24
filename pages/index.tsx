@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Hero from '../components/Hero';
 import { SliderData} from '../components/SliderData';
 import Slider from '../components/Slider';
-import Instagram from '../components/instagram';
-import {InstagramData} from '../components/instragramData'
+import Instagram from '../components/Instagram';
+import {InstagramData} from '../components/InstragramData'
 
 
 export default function Home() {
